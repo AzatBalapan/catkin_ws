@@ -58,3 +58,46 @@ The subscriber node will start receiving and printing the digits published by th
 [INFO] [1678886400.010000000] [rclcpp]: I heard: '0'
 ...
 ```
+
+# Turtlebot Controller
+
+This package (`turtlebot_controller`) contains a ROS 2 C++ node that controls a turtle in the `turtlesim` simulator.
+
+The controller does the following:
+- Spawns a turtle with the name "Turtle_Azat".
+- Makes the turtle follow a square trajectory.
+- After completing the square, it makes the turtle follow a triangular trajectory.
+
+## Topics
+
+The `turtlebot_controller` node uses the following topics:
+
+- `/Turtle_Azat/cmd_vel` (`geometry_msgs/msg/Twist`): The node publishes to this topic to send velocity commands to the turtle.
+- `/Turtle_Azat/pose` (`turtlesim/msg/Pose`): The node subscribes to this topic to receive the turtle's current position and orientation.
+
+## Running the Controller
+
+To run the turtle controller, you will need two terminals.
+
+### Terminal 1: Run Turtlesim
+
+In the first terminal, run the `turtlesim_node`:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+ros2 run turtlesim turtlesim_node
+```
+
+This will open the `turtlesim` window where you can see the turtle.
+
+### Terminal 2: Run the Controller
+
+In the second terminal, navigate to your `catkin_ws` directory and run the following commands:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+ros2 run turtlebot_controller turtle_controller
+```
+
+You will see the turtle in the `turtlesim` window moving in a square and then a triangle.
