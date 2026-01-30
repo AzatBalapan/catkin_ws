@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/student/catkin_ws/build/turtlebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/catkin_ws/build/turtlebot_controller -- -j8 -l8
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[8.944s] [100%] [32m[1mLinking CXX executable turtle_controller[0m
+[9.322s] [100%] Built target turtle_controller
+[9.332s] Invoked command in '/home/student/catkin_ws/build/turtlebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/catkin_ws/build/turtlebot_controller -- -j8 -l8
+[9.333s] Invoking command in '/home/student/catkin_ws/build/turtlebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/catkin_ws/build/turtlebot_controller
+[9.340s] -- Install configuration: ""
+[9.340s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/ament_index/resource_index/package_run_dependencies/turtlebot_controller
+[9.340s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/ament_index/resource_index/parent_prefix_path/turtlebot_controller
+[9.341s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/environment/ament_prefix_path.sh
+[9.341s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/environment/ament_prefix_path.dsv
+[9.341s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/environment/path.sh
+[9.341s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/environment/path.dsv
+[9.341s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.bash
+[9.341s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.sh
+[9.341s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.zsh
+[9.341s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.dsv
+[9.342s] -- Installing: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.dsv
+[9.342s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/ament_index/resource_index/packages/turtlebot_controller
+[9.342s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/cmake/turtlebot_controllerConfig.cmake
+[9.342s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/cmake/turtlebot_controllerConfig-version.cmake
+[9.342s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.xml
+[9.342s] -- Installing: /home/student/catkin_ws/install/turtlebot_controller/lib/turtlebot_controller/turtle_controller
+[9.347s] -- Set non-toolchain portion of runtime path of "/home/student/catkin_ws/install/turtlebot_controller/lib/turtlebot_controller/turtle_controller" to ""
+[9.349s] Invoked command in '/home/student/catkin_ws/build/turtlebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/catkin_ws/build/turtlebot_controller

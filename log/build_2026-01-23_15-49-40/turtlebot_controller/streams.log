@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/student/catkin_ws/build/turtlebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/catkin_ws/build/turtlebot_controller -- -j8 -l8
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_listener.dir/src/turtle_listener.cpp.o[0m
+[0.333s] [01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_listener.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[0.333s]     3 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[0.333s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.333s] compilation terminated.
+[0.338s] gmake[2]: *** [CMakeFiles/turtle_listener.dir/build.make:76: CMakeFiles/turtle_listener.dir/src/turtle_listener.cpp.o] Error 1
+[0.338s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_listener.dir/all] Error 2
+[0.339s] gmake: *** [Makefile:146: all] Error 2
+[0.341s] Invoked command in '/home/student/catkin_ws/build/turtlebot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/catkin_ws/build/turtlebot_controller -- -j8 -l8

@@ -1,0 +1,11 @@
+/home/student/catkin_ws/build/id_publisher/CMakeFiles/uninstall.dir
+/home/student/catkin_ws/build/id_publisher/CMakeFiles/id_publisher_uninstall.dir
+/home/student/catkin_ws/build/id_publisher/CMakeFiles/id_publisher_node.dir
+/home/student/catkin_ws/build/id_publisher/CMakeFiles/subscriber.dir
+/home/student/catkin_ws/build/id_publisher/CMakeFiles/test.dir
+/home/student/catkin_ws/build/id_publisher/CMakeFiles/edit_cache.dir
+/home/student/catkin_ws/build/id_publisher/CMakeFiles/rebuild_cache.dir
+/home/student/catkin_ws/build/id_publisher/CMakeFiles/list_install_components.dir
+/home/student/catkin_ws/build/id_publisher/CMakeFiles/install.dir
+/home/student/catkin_ws/build/id_publisher/CMakeFiles/install/local.dir
+/home/student/catkin_ws/build/id_publisher/CMakeFiles/install/strip.dir

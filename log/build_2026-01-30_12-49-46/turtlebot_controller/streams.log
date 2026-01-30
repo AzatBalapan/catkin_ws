@@ -1,0 +1,29 @@
+[0.067s] Invoking command in '/home/student/catkin_ws/build/turtlebot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/catkin_ws/build/turtlebot_controller -- -j8 -l8
+[0.767s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[3.779s] [01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::[01;32m[Kpose_callback[m[K(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.779s] [01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:62:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knext_waypoint_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.779s]    62 |         size_t [01;35m[Knext_waypoint_index[m[K = (waypoint_index_ + 1) % active_trajectory_.size();
+[3.779s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.746s] [100%] [32m[1mLinking CXX executable turtle_controller[0m
+[11.784s] [100%] Built target turtle_controller
+[11.794s] Invoked command in '/home/student/catkin_ws/build/turtlebot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/catkin_ws/build/turtlebot_controller -- -j8 -l8
+[11.861s] Invoking command in '/home/student/catkin_ws/build/turtlebot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/catkin_ws/build/turtlebot_controller
+[11.915s] -- Install configuration: ""
+[11.923s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/ament_index/resource_index/package_run_dependencies/turtlebot_controller
+[11.923s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/ament_index/resource_index/parent_prefix_path/turtlebot_controller
+[11.923s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/environment/ament_prefix_path.sh
+[11.923s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/environment/ament_prefix_path.dsv
+[11.924s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/environment/path.sh
+[11.924s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/environment/path.dsv
+[11.924s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.bash
+[11.924s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.sh
+[11.924s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.zsh
+[11.924s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.dsv
+[11.924s] -- Installing: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.dsv
+[11.945s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/ament_index/resource_index/packages/turtlebot_controller
+[11.945s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/cmake/turtlebot_controllerConfig.cmake
+[11.945s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/cmake/turtlebot_controllerConfig-version.cmake
+[11.945s] -- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.xml
+[11.967s] -- Installing: /home/student/catkin_ws/install/turtlebot_controller/lib/turtlebot_controller/turtle_controller
+[11.972s] -- Set non-toolchain portion of runtime path of "/home/student/catkin_ws/install/turtlebot_controller/lib/turtlebot_controller/turtle_controller" to ""
+[11.974s] Invoked command in '/home/student/catkin_ws/build/turtlebot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/catkin_ws/build/turtlebot_controller

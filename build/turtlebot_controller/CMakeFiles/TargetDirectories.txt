@@ -1,0 +1,10 @@
+/home/student/catkin_ws/build/turtlebot_controller/CMakeFiles/uninstall.dir
+/home/student/catkin_ws/build/turtlebot_controller/CMakeFiles/turtlebot_controller_uninstall.dir
+/home/student/catkin_ws/build/turtlebot_controller/CMakeFiles/turtle_controller.dir
+/home/student/catkin_ws/build/turtlebot_controller/CMakeFiles/test.dir
+/home/student/catkin_ws/build/turtlebot_controller/CMakeFiles/edit_cache.dir
+/home/student/catkin_ws/build/turtlebot_controller/CMakeFiles/rebuild_cache.dir
+/home/student/catkin_ws/build/turtlebot_controller/CMakeFiles/list_install_components.dir
+/home/student/catkin_ws/build/turtlebot_controller/CMakeFiles/install.dir
+/home/student/catkin_ws/build/turtlebot_controller/CMakeFiles/install/local.dir
+/home/student/catkin_ws/build/turtlebot_controller/CMakeFiles/install/strip.dir

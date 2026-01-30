@@ -1,0 +1,156 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:1[m[K:
+/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<TurtleController::kill_turtle(const std::string&)::<lambda(auto:45)> >[m[K’:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:165:8:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::same_arguments<TurtleController::kill_turtle(const std::string&)::<lambda(auto:45)>, std::function<void(std::shared_future<std::pair<std::shared_ptr<turtlesim::srv::Kill_Request_<std::allocator<void> > >, std::shared_ptr<turtlesim::srv::Kill_Response_<std::allocator<void> > > > >)> >[m[K’
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:700:17:[m[K   required by substitution of ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<turtlesim::srv::Kill_Request_<std::allocator<void> > >, std::shared_ptr<turtlesim::srv::Kill_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<turtlesim::srv::Kill>::SharedFutureWithRequestAndRequestId rclcpp::Client<turtlesim::srv::Kill>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with CallbackT = TurtleController::kill_turtle(const std::string&)::<lambda(auto:45)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<turtlesim::srv::Kill_Request_<std::allocator<void> > >, std::shared_ptr<turtlesim::srv::Kill_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> = <missing>][m[K[m[K’
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:158:41:[m[K   required from here
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   51 |   using [01;31m[Karguments[m[K = typename tuple_tail<
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   57 |   using [01;31m[Kargument_type[m[K = typename std::tuple_element<N, arguments>::type;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   59 |   using [01;31m[Kreturn_type[m[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::[01;32m[Kkill_turtle[m[K(const std::string&)[m[K’:
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:158:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<turtlesim::srv::Kill>::async_send_request(std::shared_ptr<turtlesim::srv::Kill_Request_<std::allocator<void> > >&, TurtleController::kill_turtle(const std::string&)::<lambda(auto:45)>)[m[K’
+  158 |         [01;31m[Kkill_client_->async_send_request(request, [this](auto future) {[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  159 | [01;31m[K            (void)future;[m[K
+      |             [01;31m[K~~~~~~~~~~~~~[m[K                
+  160 | [01;31m[K            this->spawn_turtle(this->turtle_name_, 5.5, 5.5, 0.0);[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  161 | [01;31m[K        })[m[K;
+      |         [01;31m[K~~[m[K                               
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<turtlesim::srv::Kill_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = CallbackT; ServiceT = turtlesim::srv::Kill][m[K[m[K’
+  672 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:669:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Krclcpp::function_traits::same_arguments<TurtleController::kill_turtle(const std::string&)::<lambda(auto:45)>, std::function<void(std::shared_future<std::shared_ptr<turtlesim::srv::Kill_Response_<std::allocator<void> > > >)> >[m[K’
+  669 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<turtlesim::srv::Kill_Request_<std::allocator<void> > >, std::shared_ptr<turtlesim::srv::Kill_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = CallbackT; ServiceT = turtlesim::srv::Kill][m[K[m[K’
+  703 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:637:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest) [35m[K[with ServiceT = turtlesim::srv::Kill; SharedRequest = std::shared_ptr<turtlesim::srv::Kill_Request_<std::allocator<void> > >][m[K[m[K’
+  637 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:637:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<TurtleController::spawn_turtle(const std::string&, float, float, float)::<lambda(auto:46)> >[m[K’:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:165:8:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::same_arguments<TurtleController::spawn_turtle(const std::string&, float, float, float)::<lambda(auto:46)>, std::function<void(std::shared_future<std::pair<std::shared_ptr<turtlesim::srv::Spawn_Request_<std::allocator<void> > >, std::shared_ptr<turtlesim::srv::Spawn_Response_<std::allocator<void> > > > >)> >[m[K’
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:700:17:[m[K   required by substitution of ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<turtlesim::srv::Spawn_Request_<std::allocator<void> > >, std::shared_ptr<turtlesim::srv::Spawn_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<turtlesim::srv::Spawn>::SharedFutureWithRequestAndRequestId rclcpp::Client<turtlesim::srv::Spawn>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with CallbackT = TurtleController::spawn_turtle(const std::string&, float, float, float)::<lambda(auto:46)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<turtlesim::srv::Spawn_Request_<std::allocator<void> > >, std::shared_ptr<turtlesim::srv::Spawn_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> = <missing>][m[K[m[K’
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:169:42:[m[K   required from here
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   51 |   using [01;31m[Karguments[m[K = typename tuple_tail<
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   57 |   using [01;31m[Kargument_type[m[K = typename std::tuple_element<N, arguments>::type;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   59 |   using [01;31m[Kreturn_type[m[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::[01;32m[Kspawn_turtle[m[K(const std::string&, float, float, float)[m[K’:
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:169:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<turtlesim::srv::Spawn>::async_send_request(std::shared_ptr<turtlesim::srv::Spawn_Request_<std::allocator<void> > >&, TurtleController::spawn_turtle(const std::string&, float, float, float)::<lambda(auto:46)>)[m[K’
+  169 |         [01;31m[Kspawn_client_->async_send_request(request, [this](auto future) {[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  170 | [01;31m[K            RCLCPP_INFO(this->get_logger(), "Spawned %s", future.get()->name.c_str());[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  171 | 
+      |                                           
+  172 | [01;31m[K            // Init interfaces[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~[m[K            
+  173 | [01;31m[K            std::string ns = "/" + this->turtle_name_;[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  174 | [01;31m[K            this->teleport_client_ = this->create_client<turtlesim::srv::TeleportAbsolute>(ns + "/teleport_absolute");[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  175 | [01;31m[K            this->cmd_vel_pub_ = this->create_publisher<geometry_msgs::msg::Twist>(ns + "/cmd_vel", 10);[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  176 | [01;31m[K            this->pose_sub_ = this->create_subscription<turtlesim::msg::Pose>([m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  177 | [01;31m[K                ns + "/pose", 10, std::bind(&TurtleController::pose_callback, this, std::placeholders::_1));[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  178 | 
+      |                                           
+  179 | [01;31m[K            // Setup Square Trajectory[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K    
+  180 | [01;31m[K            this->active_trajectory_ = this->square_trajectory_;[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  181 | [01;31m[K            this->current_trajectory_type_ = TrajectoryType::SQUARE;[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  182 | [01;31m[K            this->waypoint_index_ = 0;[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K    
+  183 | 
+      |                                           
+  184 | [01;31m[K            // Teleport to start of Square (1,1)[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  185 | [01;31m[K            this->teleport_to(1.0, 1.0);[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  
+  186 | [01;31m[K        })[m[K;
+      |         [01;31m[K~~[m[K                                
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<turtlesim::srv::Spawn_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = CallbackT; ServiceT = turtlesim::srv::Spawn][m[K[m[K’
+  672 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:669:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Krclcpp::function_traits::same_arguments<TurtleController::spawn_turtle(const std::string&, float, float, float)::<lambda(auto:46)>, std::function<void(std::shared_future<std::shared_ptr<turtlesim::srv::Spawn_Response_<std::allocator<void> > > >)> >[m[K’
+  669 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<turtlesim::srv::Spawn_Request_<std::allocator<void> > >, std::shared_ptr<turtlesim::srv::Spawn_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = CallbackT; ServiceT = turtlesim::srv::Spawn][m[K[m[K’
+  703 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:637:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest) [35m[K[with ServiceT = turtlesim::srv::Spawn; SharedRequest = std::shared_ptr<turtlesim::srv::Spawn_Request_<std::allocator<void> > >][m[K[m[K’
+  637 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:637:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<TurtleController::teleport_to(float, float)::<lambda(auto:47)> >[m[K’:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:165:8:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::same_arguments<TurtleController::teleport_to(float, float)::<lambda(auto:47)>, std::function<void(std::shared_future<std::pair<std::shared_ptr<turtlesim::srv::TeleportAbsolute_Request_<std::allocator<void> > >, std::shared_ptr<turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> > > > >)> >[m[K’
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:700:17:[m[K   required by substitution of ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<turtlesim::srv::TeleportAbsolute_Request_<std::allocator<void> > >, std::shared_ptr<turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<turtlesim::srv::TeleportAbsolute>::SharedFutureWithRequestAndRequestId rclcpp::Client<turtlesim::srv::TeleportAbsolute>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with CallbackT = TurtleController::teleport_to(float, float)::<lambda(auto:47)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<turtlesim::srv::TeleportAbsolute_Request_<std::allocator<void> > >, std::shared_ptr<turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> = <missing>][m[K[m[K’
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:204:45:[m[K   required from here
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   51 |   using [01;31m[Karguments[m[K = typename tuple_tail<
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   57 |   using [01;31m[Kargument_type[m[K = typename std::tuple_element<N, arguments>::type;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   59 |   using [01;31m[Kreturn_type[m[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::[01;32m[Kteleport_to[m[K(float, float)[m[K’:
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:204:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<turtlesim::srv::TeleportAbsolute>::async_send_request(std::shared_ptr<turtlesim::srv::TeleportAbsolute_Request_<std::allocator<void> > >&, TurtleController::teleport_to(float, float)::<lambda(auto:47)>)[m[K’
+  204 |         [01;31m[Kteleport_client_->async_send_request(request, [this](auto future) {[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 | [01;31m[K            (void)future;[m[K
+      |             [01;31m[K~~~~~~~~~~~~~[m[K                    
+  206 | [01;31m[K            RCLCPP_INFO(this->get_logger(), "Teleport requested...");[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  207 | [01;31m[K        })[m[K;
+      |         [01;31m[K~~[m[K                                   
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = CallbackT; ServiceT = turtlesim::srv::TeleportAbsolute][m[K[m[K’
+  672 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:669:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Krclcpp::function_traits::same_arguments<TurtleController::teleport_to(float, float)::<lambda(auto:47)>, std::function<void(std::shared_future<std::shared_ptr<turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> > > >)> >[m[K’
+  669 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<turtlesim::srv::TeleportAbsolute_Request_<std::allocator<void> > >, std::shared_ptr<turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = CallbackT; ServiceT = turtlesim::srv::TeleportAbsolute][m[K[m[K’
+  703 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:637:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest) [35m[K[with ServiceT = turtlesim::srv::TeleportAbsolute; SharedRequest = std::shared_ptr<turtlesim::srv::TeleportAbsolute_Request_<std::allocator<void> > >][m[K[m[K’
+  637 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:637:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/turtle_controller.dir/build.make:76: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

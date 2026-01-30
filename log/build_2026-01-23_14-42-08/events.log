@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000264] (id_publisher) JobQueued: {'identifier': 'id_publisher', 'dependencies': OrderedDict()}
+[0.000564] (id_publisher) JobStarted: {'identifier': 'id_publisher'}
+[0.006268] (id_publisher) JobProgress: {'identifier': 'id_publisher', 'progress': 'cmake'}
+[0.006884] (id_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/student/catkin_ws/src/id_publisher', '-DCMAKE_INSTALL_PREFIX=/home/student/catkin_ws/install/id_publisher'], 'cwd': '/home/student/catkin_ws/build/id_publisher', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'student', 'LC_TIME': 'kk_KZ.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/student', 'OLDPWD': '/home/student', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/student/.nvm/versions/node/v22.22.0/bin', 'NVM_INC': '/home/student/.nvm/versions/node/v22.22.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'cat', 'LC_MONETARY': 'kk_KZ.UTF-8', 'MANAGERPID': '1774', 'SYSTEMD_EXEC_PID': '2248', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4789', 'GNOME_KEYRING_CONTROL': '/run/user/1001/keyring', 'NVM_DIR': '/home/student/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'student', 'GEMINI_CLI': '1', 'JOURNAL_STREAM': '8:18766', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/student/.nvm/versions/node/v22.22.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/NLT062669NUUB:@/tmp/.ICE-unix/2010,unix/NLT062669NUUB:/tmp/.ICE-unix/2010', 'GDM_LANG': 'en_US', 'INVOCATION_ID': '99e68ed6d7c244f69e9cdee531a4a688', 'GEMINI_CLI_NO_RELAUNCH': 'true', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'kk_KZ.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'kk_KZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/student/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/student', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'kk_KZ.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:e83b055c-c363-47c6-822a-0edd6caa6ceb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GOOGLE_CLOUD_PROJECT': 'rugged-ether-406413', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'kk_KZ.UTF-8', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'kk_KZ.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student/catkin_ws/build/id_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'kk_KZ.UTF-8', 'LC_PAPER': 'kk_KZ.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099800] (-) TimerEvent: {}
+[0.200154] (-) TimerEvent: {}
+[0.300582] (-) TimerEvent: {}
+[0.337880] (id_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.392808] (id_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.400717] (-) TimerEvent: {}
+[0.421416] (id_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500832] (-) TimerEvent: {}
+[0.527967] (id_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.536791] (id_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.537023] (id_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.537422] (id_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.545225] (id_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600952] (-) TimerEvent: {}
+[0.633911] (id_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.643088] (id_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.643477] (id_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.643921] (id_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.646128] (id_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.701052] (-) TimerEvent: {}
+[0.772916] (id_publisher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.801161] (-) TimerEvent: {}
+[0.872038] (id_publisher) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.901279] (-) TimerEvent: {}
+[0.908381] (id_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.920690] (id_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.935008] (id_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.952225] (id_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001392] (-) TimerEvent: {}
+[1.025617] (id_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.028046] (id_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101496] (-) TimerEvent: {}
+[1.107914] (id_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.125614] (id_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.147472] (id_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.201609] (-) TimerEvent: {}
+[1.219146] (id_publisher) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.235645] (id_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.301713] (-) TimerEvent: {}
+[1.330727] (id_publisher) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.330935] (id_publisher) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/student/catkin_ws/src/id_publisher/include>\n'}
+[1.331022] (id_publisher) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.331600] (id_publisher) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.332694] (id_publisher) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.332789] (id_publisher) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.333242] (id_publisher) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.334460] (id_publisher) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.346392] (id_publisher) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.351042] (id_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/student/catkin_ws/build/id_publisher\n'}
+[1.359167] (id_publisher) CommandEnded: {'returncode': 0}
+[1.359701] (id_publisher) JobProgress: {'identifier': 'id_publisher', 'progress': 'build'}
+[1.360341] (id_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/catkin_ws/build/id_publisher', '--', '-j8', '-l8'], 'cwd': '/home/student/catkin_ws/build/id_publisher', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'student', 'LC_TIME': 'kk_KZ.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/student', 'OLDPWD': '/home/student', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/student/.nvm/versions/node/v22.22.0/bin', 'NVM_INC': '/home/student/.nvm/versions/node/v22.22.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'cat', 'LC_MONETARY': 'kk_KZ.UTF-8', 'MANAGERPID': '1774', 'SYSTEMD_EXEC_PID': '2248', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4789', 'GNOME_KEYRING_CONTROL': '/run/user/1001/keyring', 'NVM_DIR': '/home/student/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'student', 'GEMINI_CLI': '1', 'JOURNAL_STREAM': '8:18766', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/student/.nvm/versions/node/v22.22.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/NLT062669NUUB:@/tmp/.ICE-unix/2010,unix/NLT062669NUUB:/tmp/.ICE-unix/2010', 'GDM_LANG': 'en_US', 'INVOCATION_ID': '99e68ed6d7c244f69e9cdee531a4a688', 'GEMINI_CLI_NO_RELAUNCH': 'true', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'kk_KZ.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'kk_KZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/student/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/student', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'kk_KZ.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:e83b055c-c363-47c6-822a-0edd6caa6ceb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GOOGLE_CLOUD_PROJECT': 'rugged-ether-406413', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'kk_KZ.UTF-8', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'kk_KZ.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student/catkin_ws/build/id_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'kk_KZ.UTF-8', 'LC_PAPER': 'kk_KZ.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.401832] (-) TimerEvent: {}
+[1.406926] (id_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[1.407076] (id_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/id_publisher_node.dir/src/id_publisher_node.cpp.o\x1b[0m\n'}
+[1.501950] (-) TimerEvent: {}
+[1.602216] (-) TimerEvent: {}
+[1.702479] (-) TimerEvent: {}
+[1.802734] (-) TimerEvent: {}
+[1.902989] (-) TimerEvent: {}
+[2.003271] (-) TimerEvent: {}
+[2.103528] (-) TimerEvent: {}
+[2.203784] (-) TimerEvent: {}
+[2.304081] (-) TimerEvent: {}
+[2.404316] (-) TimerEvent: {}
+[2.504626] (-) TimerEvent: {}
+[2.604884] (-) TimerEvent: {}
+[2.705115] (-) TimerEvent: {}
+[2.805429] (-) TimerEvent: {}
+[2.905690] (-) TimerEvent: {}
+[3.005950] (-) TimerEvent: {}
+[3.106227] (-) TimerEvent: {}
+[3.206493] (-) TimerEvent: {}
+[3.306764] (-) TimerEvent: {}
+[3.407020] (-) TimerEvent: {}
+[3.507288] (-) TimerEvent: {}
+[3.607536] (-) TimerEvent: {}
+[3.707792] (-) TimerEvent: {}
+[3.808059] (-) TimerEvent: {}
+[3.908329] (-) TimerEvent: {}
+[4.008587] (-) TimerEvent: {}
+[4.108843] (-) TimerEvent: {}
+[4.209107] (-) TimerEvent: {}
+[4.309381] (-) TimerEvent: {}
+[4.409639] (-) TimerEvent: {}
+[4.509858] (-) TimerEvent: {}
+[4.610145] (-) TimerEvent: {}
+[4.710370] (-) TimerEvent: {}
+[4.810720] (-) TimerEvent: {}
+[4.910940] (-) TimerEvent: {}
+[5.011185] (-) TimerEvent: {}
+[5.111463] (-) TimerEvent: {}
+[5.211703] (-) TimerEvent: {}
+[5.311963] (-) TimerEvent: {}
+[5.372946] (id_publisher) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable id_publisher_node\x1b[0m\n'}
+[5.412083] (-) TimerEvent: {}
+[5.512291] (-) TimerEvent: {}
+[5.534787] (id_publisher) StdoutLine: {'line': b'[ 75%] Built target id_publisher_node\n'}
+[5.612372] (-) TimerEvent: {}
+[5.712616] (-) TimerEvent: {}
+[5.812845] (-) TimerEvent: {}
+[5.913072] (-) TimerEvent: {}
+[6.013255] (-) TimerEvent: {}
+[6.113483] (-) TimerEvent: {}
+[6.213713] (-) TimerEvent: {}
+[6.313941] (-) TimerEvent: {}
+[6.414180] (-) TimerEvent: {}
+[6.514417] (-) TimerEvent: {}
+[6.614654] (-) TimerEvent: {}
+[6.714890] (-) TimerEvent: {}
+[6.815123] (-) TimerEvent: {}
+[6.915369] (-) TimerEvent: {}
+[7.015607] (-) TimerEvent: {}
+[7.115834] (-) TimerEvent: {}
+[7.216055] (-) TimerEvent: {}
+[7.316279] (-) TimerEvent: {}
+[7.416488] (-) TimerEvent: {}
+[7.516787] (-) TimerEvent: {}
+[7.617023] (-) TimerEvent: {}
+[7.717288] (-) TimerEvent: {}
+[7.817566] (-) TimerEvent: {}
+[7.917801] (-) TimerEvent: {}
+[8.018039] (-) TimerEvent: {}
+[8.118285] (-) TimerEvent: {}
+[8.189537] (id_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[8.218378] (-) TimerEvent: {}
+[8.318611] (-) TimerEvent: {}
+[8.418843] (-) TimerEvent: {}
+[8.433818] (id_publisher) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[8.443925] (id_publisher) CommandEnded: {'returncode': 0}
+[8.444636] (id_publisher) JobProgress: {'identifier': 'id_publisher', 'progress': 'install'}
+[8.453256] (id_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/catkin_ws/build/id_publisher'], 'cwd': '/home/student/catkin_ws/build/id_publisher', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'student', 'LC_TIME': 'kk_KZ.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/student', 'OLDPWD': '/home/student', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/student/.nvm/versions/node/v22.22.0/bin', 'NVM_INC': '/home/student/.nvm/versions/node/v22.22.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'cat', 'LC_MONETARY': 'kk_KZ.UTF-8', 'MANAGERPID': '1774', 'SYSTEMD_EXEC_PID': '2248', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4789', 'GNOME_KEYRING_CONTROL': '/run/user/1001/keyring', 'NVM_DIR': '/home/student/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'student', 'GEMINI_CLI': '1', 'JOURNAL_STREAM': '8:18766', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/student/.nvm/versions/node/v22.22.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/NLT062669NUUB:@/tmp/.ICE-unix/2010,unix/NLT062669NUUB:/tmp/.ICE-unix/2010', 'GDM_LANG': 'en_US', 'INVOCATION_ID': '99e68ed6d7c244f69e9cdee531a4a688', 'GEMINI_CLI_NO_RELAUNCH': 'true', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'kk_KZ.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'kk_KZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/student/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/student', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'kk_KZ.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:e83b055c-c363-47c6-822a-0edd6caa6ceb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GOOGLE_CLOUD_PROJECT': 'rugged-ether-406413', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'kk_KZ.UTF-8', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'kk_KZ.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student/catkin_ws/build/id_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'kk_KZ.UTF-8', 'LC_PAPER': 'kk_KZ.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[8.460500] (id_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.460745] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/lib/id_publisher/id_publisher_node\n'}
+[8.461805] (id_publisher) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student/catkin_ws/install/id_publisher/lib/id_publisher/id_publisher_node" to ""\n'}
+[8.462001] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/lib/id_publisher/subscriber\n'}
+[8.465263] (id_publisher) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student/catkin_ws/install/id_publisher/lib/id_publisher/subscriber" to ""\n'}
+[8.465470] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/ament_index/resource_index/package_run_dependencies/id_publisher\n'}
+[8.465642] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/ament_index/resource_index/parent_prefix_path/id_publisher\n'}
+[8.465783] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/ament_prefix_path.sh\n'}
+[8.465904] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/ament_prefix_path.dsv\n'}
+[8.466006] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/path.sh\n'}
+[8.466126] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/path.dsv\n'}
+[8.466242] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.bash\n'}
+[8.466359] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.sh\n'}
+[8.466471] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.zsh\n'}
+[8.466610] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.dsv\n'}
+[8.466791] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/package.dsv\n'}
+[8.466966] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/ament_index/resource_index/packages/id_publisher\n'}
+[8.467116] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/cmake/id_publisherConfig.cmake\n'}
+[8.467196] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/cmake/id_publisherConfig-version.cmake\n'}
+[8.467329] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/package.xml\n'}
+[8.469099] (id_publisher) CommandEnded: {'returncode': 0}
+[8.482063] (id_publisher) JobEnded: {'identifier': 'id_publisher', 'rc': 0}
+[8.482806] (-) EventReactorShutdown: {}

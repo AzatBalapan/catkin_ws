@@ -1,0 +1,27 @@
+[0.008s] Invoking command in '/home/student/catkin_ws/build/id_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/catkin_ws/build/id_publisher -- -j8 -l8
+[0.061s] [ 50%] Built target subscriber
+[0.061s] [ 75%] [32mBuilding CXX object CMakeFiles/id_publisher_node.dir/src/id_publisher_node.cpp.o[0m
+[3.905s] [100%] [32m[1mLinking CXX executable id_publisher_node[0m
+[4.060s] [100%] Built target id_publisher_node
+[4.071s] Invoked command in '/home/student/catkin_ws/build/id_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/catkin_ws/build/id_publisher -- -j8 -l8
+[4.080s] Invoking command in '/home/student/catkin_ws/build/id_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/catkin_ws/build/id_publisher
+[4.089s] -- Install configuration: ""
+[4.089s] -- Installing: /home/student/catkin_ws/install/id_publisher/lib/id_publisher/id_publisher_node
+[4.090s] -- Set non-toolchain portion of runtime path of "/home/student/catkin_ws/install/id_publisher/lib/id_publisher/id_publisher_node" to ""
+[4.091s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/lib/id_publisher/subscriber
+[4.091s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/ament_index/resource_index/package_run_dependencies/id_publisher
+[4.091s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/ament_index/resource_index/parent_prefix_path/id_publisher
+[4.091s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/ament_prefix_path.sh
+[4.091s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/ament_prefix_path.dsv
+[4.091s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/path.sh
+[4.091s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/path.dsv
+[4.092s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.bash
+[4.092s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.sh
+[4.092s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.zsh
+[4.092s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.dsv
+[4.092s] -- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/package.dsv
+[4.092s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/ament_index/resource_index/packages/id_publisher
+[4.092s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/cmake/id_publisherConfig.cmake
+[4.092s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/cmake/id_publisherConfig-version.cmake
+[4.092s] -- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/package.xml
+[4.093s] Invoked command in '/home/student/catkin_ws/build/id_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/catkin_ws/build/id_publisher

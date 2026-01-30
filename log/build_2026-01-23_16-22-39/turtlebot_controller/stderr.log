@@ -1,0 +1,14 @@
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::[01;32m[Kpose_callback[m[K(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:92:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Waypoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   92 |                 if ([01;35m[Kwaypoint_index_ + 1 >= trajectory_.size()[m[K) {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:[m[K In lambda function:
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:149:36:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kstd::vector<Waypoint>[m[K’)
+  149 |                 this->teleport_to(([01;31m[K*this->trajectory_[m[K)[0].x, (*this->trajectory_)[0].y, true);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:149:63:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kstd::vector<Waypoint>[m[K’)
+  149 |                 this->teleport_to((*this->trajectory_)[0].x, ([01;31m[K*this->trajectory_[m[K)[0].y, true);
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_controller.dir/build.make:76: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

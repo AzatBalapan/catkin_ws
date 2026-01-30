@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000548] (id_publisher) JobQueued: {'identifier': 'id_publisher', 'dependencies': OrderedDict()}
+[0.000579] (turtlebot_controller) JobQueued: {'identifier': 'turtlebot_controller', 'dependencies': OrderedDict()}
+[0.000596] (id_publisher) JobStarted: {'identifier': 'id_publisher'}
+[0.003270] (turtlebot_controller) JobStarted: {'identifier': 'turtlebot_controller'}
+[0.005006] (id_publisher) JobProgress: {'identifier': 'id_publisher', 'progress': 'cmake'}
+[0.005611] (id_publisher) JobProgress: {'identifier': 'id_publisher', 'progress': 'build'}
+[0.006214] (id_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/catkin_ws/build/id_publisher', '--', '-j8', '-l8'], 'cwd': '/home/student/catkin_ws/build/id_publisher', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'student', 'LC_TIME': 'kk_KZ.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'HOME': '/home/student', 'OLDPWD': '/home/student', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/student/.nvm/versions/node/v22.22.0/bin', 'NVM_INC': '/home/student/.nvm/versions/node/v22.22.0/include/node', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'cat', 'LC_MONETARY': 'kk_KZ.UTF-8', 'MANAGERPID': '1997', 'SYSTEMD_EXEC_PID': '2505', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2989', 'GNOME_KEYRING_CONTROL': '/run/user/1001/keyring', 'NVM_DIR': '/home/student/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'student', 'GEMINI_CLI': '1', 'JOURNAL_STREAM': '8:16890', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/student/.nvm/versions/node/v22.22.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/NLT062669NUUB:@/tmp/.ICE-unix/2258,unix/NLT062669NUUB:/tmp/.ICE-unix/2258', 'GDM_LANG': 'en_US', 'INVOCATION_ID': 'aa9eb0d3f2d5407cb71c5b7fc65eb981', 'GEMINI_CLI_NO_RELAUNCH': 'true', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'kk_KZ.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'kk_KZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/student/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/student', 'SHELL': '/bin/bash', 'LC_NAME': 'kk_KZ.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:2bde4da0-7271-4991-b1df-79cab18ef223', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'kk_KZ.UTF-8', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'kk_KZ.UTF-8', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student/catkin_ws/build/id_publisher', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'kk_KZ.UTF-8', 'LC_PAPER': 'kk_KZ.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.009285] (turtlebot_controller) JobProgress: {'identifier': 'turtlebot_controller', 'progress': 'cmake'}
+[0.009757] (turtlebot_controller) JobProgress: {'identifier': 'turtlebot_controller', 'progress': 'build'}
+[0.010103] (turtlebot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/catkin_ws/build/turtlebot_controller', '--', '-j8', '-l8'], 'cwd': '/home/student/catkin_ws/build/turtlebot_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'student', 'LC_TIME': 'kk_KZ.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'HOME': '/home/student', 'OLDPWD': '/home/student', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/student/.nvm/versions/node/v22.22.0/bin', 'NVM_INC': '/home/student/.nvm/versions/node/v22.22.0/include/node', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'cat', 'LC_MONETARY': 'kk_KZ.UTF-8', 'MANAGERPID': '1997', 'SYSTEMD_EXEC_PID': '2505', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2989', 'GNOME_KEYRING_CONTROL': '/run/user/1001/keyring', 'NVM_DIR': '/home/student/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'student', 'GEMINI_CLI': '1', 'JOURNAL_STREAM': '8:16890', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/student/.nvm/versions/node/v22.22.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/NLT062669NUUB:@/tmp/.ICE-unix/2258,unix/NLT062669NUUB:/tmp/.ICE-unix/2258', 'GDM_LANG': 'en_US', 'INVOCATION_ID': 'aa9eb0d3f2d5407cb71c5b7fc65eb981', 'GEMINI_CLI_NO_RELAUNCH': 'true', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'kk_KZ.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'kk_KZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/student/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/student', 'SHELL': '/bin/bash', 'LC_NAME': 'kk_KZ.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:2bde4da0-7271-4991-b1df-79cab18ef223', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'kk_KZ.UTF-8', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'kk_KZ.UTF-8', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student/catkin_ws/build/turtlebot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'kk_KZ.UTF-8', 'LC_PAPER': 'kk_KZ.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.056748] (id_publisher) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[0.057069] (id_publisher) StdoutLine: {'line': b'[100%] Built target id_publisher_node\n'}
+[0.063967] (turtlebot_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o\x1b[0m\n'}
+[0.066608] (id_publisher) CommandEnded: {'returncode': 0}
+[0.067192] (id_publisher) JobProgress: {'identifier': 'id_publisher', 'progress': 'install'}
+[0.075335] (id_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/catkin_ws/build/id_publisher'], 'cwd': '/home/student/catkin_ws/build/id_publisher', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'student', 'LC_TIME': 'kk_KZ.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'HOME': '/home/student', 'OLDPWD': '/home/student', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/student/.nvm/versions/node/v22.22.0/bin', 'NVM_INC': '/home/student/.nvm/versions/node/v22.22.0/include/node', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'cat', 'LC_MONETARY': 'kk_KZ.UTF-8', 'MANAGERPID': '1997', 'SYSTEMD_EXEC_PID': '2505', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2989', 'GNOME_KEYRING_CONTROL': '/run/user/1001/keyring', 'NVM_DIR': '/home/student/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'student', 'GEMINI_CLI': '1', 'JOURNAL_STREAM': '8:16890', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/student/.nvm/versions/node/v22.22.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/NLT062669NUUB:@/tmp/.ICE-unix/2258,unix/NLT062669NUUB:/tmp/.ICE-unix/2258', 'GDM_LANG': 'en_US', 'INVOCATION_ID': 'aa9eb0d3f2d5407cb71c5b7fc65eb981', 'GEMINI_CLI_NO_RELAUNCH': 'true', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'kk_KZ.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'kk_KZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/student/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/student', 'SHELL': '/bin/bash', 'LC_NAME': 'kk_KZ.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:2bde4da0-7271-4991-b1df-79cab18ef223', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'kk_KZ.UTF-8', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'kk_KZ.UTF-8', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student/catkin_ws/build/id_publisher', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'kk_KZ.UTF-8', 'LC_PAPER': 'kk_KZ.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.082279] (id_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.082591] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/lib/id_publisher/id_publisher_node\n'}
+[0.082936] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/lib/id_publisher/subscriber\n'}
+[0.083271] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/ament_index/resource_index/package_run_dependencies/id_publisher\n'}
+[0.083489] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/ament_index/resource_index/parent_prefix_path/id_publisher\n'}
+[0.083690] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/ament_prefix_path.sh\n'}
+[0.083857] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/ament_prefix_path.dsv\n'}
+[0.084015] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/path.sh\n'}
+[0.084190] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/path.dsv\n'}
+[0.084351] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.bash\n'}
+[0.084509] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.sh\n'}
+[0.084697] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.zsh\n'}
+[0.084921] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.dsv\n'}
+[0.085073] (id_publisher) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/id_publisher/share/id_publisher/package.dsv\n'}
+[0.085231] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/ament_index/resource_index/packages/id_publisher\n'}
+[0.085380] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/cmake/id_publisherConfig.cmake\n'}
+[0.085593] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/cmake/id_publisherConfig-version.cmake\n'}
+[0.085750] (id_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/id_publisher/share/id_publisher/package.xml\n'}
+[0.086571] (id_publisher) CommandEnded: {'returncode': 0}
+[0.099946] (-) TimerEvent: {}
+[0.102009] (id_publisher) JobEnded: {'identifier': 'id_publisher', 'rc': 0}
+[0.200093] (-) TimerEvent: {}
+[0.300360] (-) TimerEvent: {}
+[0.400600] (-) TimerEvent: {}
+[0.500846] (-) TimerEvent: {}
+[0.601091] (-) TimerEvent: {}
+[0.701327] (-) TimerEvent: {}
+[0.801565] (-) TimerEvent: {}
+[0.901806] (-) TimerEvent: {}
+[1.002056] (-) TimerEvent: {}
+[1.102296] (-) TimerEvent: {}
+[1.202538] (-) TimerEvent: {}
+[1.302779] (-) TimerEvent: {}
+[1.403047] (-) TimerEvent: {}
+[1.503264] (-) TimerEvent: {}
+[1.603509] (-) TimerEvent: {}
+[1.703773] (-) TimerEvent: {}
+[1.804018] (-) TimerEvent: {}
+[1.904240] (-) TimerEvent: {}
+[2.004490] (-) TimerEvent: {}
+[2.104731] (-) TimerEvent: {}
+[2.204964] (-) TimerEvent: {}
+[2.305224] (-) TimerEvent: {}
+[2.405474] (-) TimerEvent: {}
+[2.505721] (-) TimerEvent: {}
+[2.605966] (-) TimerEvent: {}
+[2.706227] (-) TimerEvent: {}
+[2.806461] (-) TimerEvent: {}
+[2.906723] (-) TimerEvent: {}
+[3.006964] (-) TimerEvent: {}
+[3.107234] (-) TimerEvent: {}
+[3.207489] (-) TimerEvent: {}
+[3.307742] (-) TimerEvent: {}
+[3.407994] (-) TimerEvent: {}
+[3.508239] (-) TimerEvent: {}
+[3.608484] (-) TimerEvent: {}
+[3.708729] (-) TimerEvent: {}
+[3.809009] (-) TimerEvent: {}
+[3.909263] (-) TimerEvent: {}
+[4.009499] (-) TimerEvent: {}
+[4.109740] (-) TimerEvent: {}
+[4.209982] (-) TimerEvent: {}
+[4.310222] (-) TimerEvent: {}
+[4.410447] (-) TimerEvent: {}
+[4.510685] (-) TimerEvent: {}
+[4.610935] (-) TimerEvent: {}
+[4.711163] (-) TimerEvent: {}
+[4.811396] (-) TimerEvent: {}
+[4.911638] (-) TimerEvent: {}
+[5.011871] (-) TimerEvent: {}
+[5.112117] (-) TimerEvent: {}
+[5.212353] (-) TimerEvent: {}
+[5.312576] (-) TimerEvent: {}
+[5.412805] (-) TimerEvent: {}
+[5.513039] (-) TimerEvent: {}
+[5.613264] (-) TimerEvent: {}
+[5.713500] (-) TimerEvent: {}
+[5.813729] (-) TimerEvent: {}
+[5.913960] (-) TimerEvent: {}
+[6.014191] (-) TimerEvent: {}
+[6.114392] (-) TimerEvent: {}
+[6.214612] (-) TimerEvent: {}
+[6.314837] (-) TimerEvent: {}
+[6.415069] (-) TimerEvent: {}
+[6.515296] (-) TimerEvent: {}
+[6.615525] (-) TimerEvent: {}
+[6.715752] (-) TimerEvent: {}
+[6.815977] (-) TimerEvent: {}
+[6.916239] (-) TimerEvent: {}
+[7.016464] (-) TimerEvent: {}
+[7.116688] (-) TimerEvent: {}
+[7.216910] (-) TimerEvent: {}
+[7.317130] (-) TimerEvent: {}
+[7.417356] (-) TimerEvent: {}
+[7.517587] (-) TimerEvent: {}
+[7.617809] (-) TimerEvent: {}
+[7.718053] (-) TimerEvent: {}
+[7.818279] (-) TimerEvent: {}
+[7.918504] (-) TimerEvent: {}
+[8.018717] (-) TimerEvent: {}
+[8.118981] (-) TimerEvent: {}
+[8.219312] (-) TimerEvent: {}
+[8.319564] (-) TimerEvent: {}
+[8.419830] (-) TimerEvent: {}
+[8.520080] (-) TimerEvent: {}
+[8.620344] (-) TimerEvent: {}
+[8.720607] (-) TimerEvent: {}
+[8.820862] (-) TimerEvent: {}
+[8.921138] (-) TimerEvent: {}
+[8.930939] (turtlebot_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller\x1b[0m\n'}
+[9.021260] (-) TimerEvent: {}
+[9.121508] (-) TimerEvent: {}
+[9.221750] (-) TimerEvent: {}
+[9.303767] (turtlebot_controller) StdoutLine: {'line': b'[100%] Built target turtle_controller\n'}
+[9.313813] (turtlebot_controller) CommandEnded: {'returncode': 0}
+[9.314215] (turtlebot_controller) JobProgress: {'identifier': 'turtlebot_controller', 'progress': 'install'}
+[9.314529] (turtlebot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/catkin_ws/build/turtlebot_controller'], 'cwd': '/home/student/catkin_ws/build/turtlebot_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'student', 'LC_TIME': 'kk_KZ.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'HOME': '/home/student', 'OLDPWD': '/home/student', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/student/.nvm/versions/node/v22.22.0/bin', 'NVM_INC': '/home/student/.nvm/versions/node/v22.22.0/include/node', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'cat', 'LC_MONETARY': 'kk_KZ.UTF-8', 'MANAGERPID': '1997', 'SYSTEMD_EXEC_PID': '2505', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2989', 'GNOME_KEYRING_CONTROL': '/run/user/1001/keyring', 'NVM_DIR': '/home/student/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'student', 'GEMINI_CLI': '1', 'JOURNAL_STREAM': '8:16890', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/student/.nvm/versions/node/v22.22.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/NLT062669NUUB:@/tmp/.ICE-unix/2258,unix/NLT062669NUUB:/tmp/.ICE-unix/2258', 'GDM_LANG': 'en_US', 'INVOCATION_ID': 'aa9eb0d3f2d5407cb71c5b7fc65eb981', 'GEMINI_CLI_NO_RELAUNCH': 'true', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'kk_KZ.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'kk_KZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/student/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/student', 'SHELL': '/bin/bash', 'LC_NAME': 'kk_KZ.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:2bde4da0-7271-4991-b1df-79cab18ef223', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'kk_KZ.UTF-8', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'kk_KZ.UTF-8', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student/catkin_ws/build/turtlebot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'kk_KZ.UTF-8', 'LC_PAPER': 'kk_KZ.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[9.321218] (turtlebot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.321438] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/ament_index/resource_index/package_run_dependencies/turtlebot_controller\n'}
+[9.321579] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/ament_index/resource_index/parent_prefix_path/turtlebot_controller\n'}
+[9.321673] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/environment/ament_prefix_path.sh\n'}
+[9.321771] (-) TimerEvent: {}
+[9.321920] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/environment/ament_prefix_path.dsv\n'}
+[9.322040] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/environment/path.sh\n'}
+[9.322149] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/environment/path.dsv\n'}
+[9.322219] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.bash\n'}
+[9.322286] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.sh\n'}
+[9.322352] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.zsh\n'}
+[9.322418] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.dsv\n'}
+[9.322483] (turtlebot_controller) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.dsv\n'}
+[9.322549] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/ament_index/resource_index/packages/turtlebot_controller\n'}
+[9.322644] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/cmake/turtlebot_controllerConfig.cmake\n'}
+[9.322748] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/cmake/turtlebot_controllerConfig-version.cmake\n'}
+[9.322812] (turtlebot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.xml\n'}
+[9.322873] (turtlebot_controller) StdoutLine: {'line': b'-- Installing: /home/student/catkin_ws/install/turtlebot_controller/lib/turtlebot_controller/turtle_controller\n'}
+[9.328701] (turtlebot_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student/catkin_ws/install/turtlebot_controller/lib/turtlebot_controller/turtle_controller" to ""\n'}
+[9.330598] (turtlebot_controller) CommandEnded: {'returncode': 0}
+[9.340619] (turtlebot_controller) JobEnded: {'identifier': 'turtlebot_controller', 'rc': 0}
+[9.340940] (-) EventReactorShutdown: {}

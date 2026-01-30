@@ -1,0 +1,204 @@
+[0.093s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.093s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b562ca51ee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b562cba29c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b562cba29c0>>)
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.129s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/catkin_ws'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/id_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/id_publisher) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/id_publisher) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/id_publisher) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/id_publisher) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/id_publisher) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/id_publisher) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/id_publisher) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/id_publisher) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/id_publisher' with type 'ros.ament_cmake' and name 'id_publisher'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot_controller' with type 'ros.ament_cmake' and name 'turtlebot_controller'
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.173s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'id_publisher' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'id_publisher' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'id_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'id_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'id_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'id_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'id_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'id_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'id_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'id_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/catkin_ws/build/id_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/catkin_ws/install/id_publisher', 'merge_install': False, 'path': '/home/student/catkin_ws/src/id_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/catkin_ws/build/turtlebot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/catkin_ws/install/turtlebot_controller', 'merge_install': False, 'path': '/home/student/catkin_ws/src/turtlebot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.214s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.215s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.215s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/catkin_ws/src/id_publisher' with build type 'ament_cmake'
+[0.216s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/catkin_ws/src/id_publisher'
+[0.217s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.220s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/catkin_ws/src/turtlebot_controller' with build type 'ament_cmake'
+[0.220s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/catkin_ws/src/turtlebot_controller'
+[0.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/catkin_ws/build/id_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/catkin_ws/build/id_publisher -- -j8 -l8
+[0.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/catkin_ws/build/turtlebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/catkin_ws/build/turtlebot_controller -- -j8 -l8
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/catkin_ws/build/id_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/catkin_ws/build/id_publisher -- -j8 -l8
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/catkin_ws/build/id_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/catkin_ws/build/id_publisher
+[0.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(id_publisher)
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/catkin_ws/build/id_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/catkin_ws/build/id_publisher
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher' for CMake module files
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher' for CMake config files
+[0.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('id_publisher', 'cmake_prefix_path')
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/catkin_ws/install/id_publisher/share/id_publisher/hook/cmake_prefix_path.ps1'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/catkin_ws/install/id_publisher/share/id_publisher/hook/cmake_prefix_path.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/catkin_ws/install/id_publisher/share/id_publisher/hook/cmake_prefix_path.sh'
+[0.316s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher/lib'
+[0.316s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher/bin'
+[0.317s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher/lib/pkgconfig/id_publisher.pc'
+[0.317s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher/lib/python3.12/site-packages'
+[0.317s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher/bin'
+[0.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/id_publisher/share/id_publisher/package.ps1'
+[0.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/catkin_ws/install/id_publisher/share/id_publisher/package.dsv'
+[0.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/id_publisher/share/id_publisher/package.sh'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/id_publisher/share/id_publisher/package.bash'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/id_publisher/share/id_publisher/package.zsh'
+[0.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/catkin_ws/install/id_publisher/share/colcon-core/packages/id_publisher)
+[0.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(id_publisher)
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher' for CMake module files
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher' for CMake config files
+[0.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('id_publisher', 'cmake_prefix_path')
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/catkin_ws/install/id_publisher/share/id_publisher/hook/cmake_prefix_path.ps1'
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/catkin_ws/install/id_publisher/share/id_publisher/hook/cmake_prefix_path.dsv'
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/catkin_ws/install/id_publisher/share/id_publisher/hook/cmake_prefix_path.sh'
+[0.322s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher/lib'
+[0.322s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher/bin'
+[0.322s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher/lib/pkgconfig/id_publisher.pc'
+[0.323s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher/lib/python3.12/site-packages'
+[0.323s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/id_publisher/bin'
+[0.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/id_publisher/share/id_publisher/package.ps1'
+[0.323s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/catkin_ws/install/id_publisher/share/id_publisher/package.dsv'
+[0.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/id_publisher/share/id_publisher/package.sh'
+[0.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/id_publisher/share/id_publisher/package.bash'
+[0.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/id_publisher/share/id_publisher/package.zsh'
+[0.325s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/catkin_ws/install/id_publisher/share/colcon-core/packages/id_publisher)
+[9.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/catkin_ws/build/turtlebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/catkin_ws/build/turtlebot_controller -- -j8 -l8
+[9.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/catkin_ws/build/turtlebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/catkin_ws/build/turtlebot_controller
+[9.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot_controller)
+[9.568s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller' for CMake module files
+[9.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/catkin_ws/build/turtlebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/catkin_ws/build/turtlebot_controller
+[9.569s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller' for CMake config files
+[9.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_controller', 'cmake_prefix_path')
+[9.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/hook/cmake_prefix_path.ps1'
+[9.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/hook/cmake_prefix_path.dsv'
+[9.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/hook/cmake_prefix_path.sh'
+[9.571s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller/lib'
+[9.571s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller/bin'
+[9.571s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller/lib/pkgconfig/turtlebot_controller.pc'
+[9.571s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller/lib/python3.12/site-packages'
+[9.571s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller/bin'
+[9.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.ps1'
+[9.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.dsv'
+[9.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.sh'
+[9.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.bash'
+[9.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.zsh'
+[9.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/catkin_ws/install/turtlebot_controller/share/colcon-core/packages/turtlebot_controller)
+[9.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot_controller)
+[9.574s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller' for CMake module files
+[9.575s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller' for CMake config files
+[9.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_controller', 'cmake_prefix_path')
+[9.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/hook/cmake_prefix_path.ps1'
+[9.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/hook/cmake_prefix_path.dsv'
+[9.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/hook/cmake_prefix_path.sh'
+[9.576s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller/lib'
+[9.577s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller/bin'
+[9.577s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller/lib/pkgconfig/turtlebot_controller.pc'
+[9.577s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller/lib/python3.12/site-packages'
+[9.577s] Level 1:colcon.colcon_core.environment:checking '/home/student/catkin_ws/install/turtlebot_controller/bin'
+[9.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.ps1'
+[9.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.dsv'
+[9.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.sh'
+[9.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.bash'
+[9.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/catkin_ws/install/turtlebot_controller/share/turtlebot_controller/package.zsh'
+[9.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/catkin_ws/install/turtlebot_controller/share/colcon-core/packages/turtlebot_controller)
+[9.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.580s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.585s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.585s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.585s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.598s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.598s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/catkin_ws/install/local_setup.ps1'
+[9.599s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/catkin_ws/install/_local_setup_util_ps1.py'
+[9.599s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/catkin_ws/install/setup.ps1'
+[9.600s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/catkin_ws/install/local_setup.sh'
+[9.601s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/catkin_ws/install/_local_setup_util_sh.py'
+[9.601s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/catkin_ws/install/setup.sh'
+[9.602s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/catkin_ws/install/local_setup.bash'
+[9.602s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/catkin_ws/install/setup.bash'
+[9.603s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/catkin_ws/install/local_setup.zsh'
+[9.603s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/catkin_ws/install/setup.zsh'

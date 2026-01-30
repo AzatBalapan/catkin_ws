@@ -1,0 +1,4 @@
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::[01;32m[Kpose_callback[m[K(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:62:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knext_waypoint_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   62 |         size_t [01;35m[Knext_waypoint_index[m[K = (waypoint_index_ + 1) % active_trajectory_.size();
+      |                [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,6 @@
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:160:28:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  160 |     void call_service_sync([01;35m[Kauto[m[K client, auto request) {
+      |                            [01;35m[K^~~~[m[K
+[01m[K/home/student/catkin_ws/src/turtlebot_controller/src/turtle_controller.cpp:160:41:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  160 |     void call_service_sync(auto client, [01;35m[Kauto[m[K request) {
+      |                                         [01;35m[K^~~~[m[K

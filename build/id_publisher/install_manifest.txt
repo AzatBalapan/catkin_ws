@@ -1,0 +1,17 @@
+/home/student/catkin_ws/install/id_publisher/lib/id_publisher/id_publisher_node
+/home/student/catkin_ws/install/id_publisher/lib/id_publisher/subscriber
+/home/student/catkin_ws/install/id_publisher/share/ament_index/resource_index/package_run_dependencies/id_publisher
+/home/student/catkin_ws/install/id_publisher/share/ament_index/resource_index/parent_prefix_path/id_publisher
+/home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/ament_prefix_path.sh
+/home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/ament_prefix_path.dsv
+/home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/path.sh
+/home/student/catkin_ws/install/id_publisher/share/id_publisher/environment/path.dsv
+/home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.bash
+/home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.sh
+/home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.zsh
+/home/student/catkin_ws/install/id_publisher/share/id_publisher/local_setup.dsv
+/home/student/catkin_ws/install/id_publisher/share/id_publisher/package.dsv
+/home/student/catkin_ws/install/id_publisher/share/ament_index/resource_index/packages/id_publisher
+/home/student/catkin_ws/install/id_publisher/share/id_publisher/cmake/id_publisherConfig.cmake
+/home/student/catkin_ws/install/id_publisher/share/id_publisher/cmake/id_publisherConfig-version.cmake
+/home/student/catkin_ws/install/id_publisher/share/id_publisher/package.xml
